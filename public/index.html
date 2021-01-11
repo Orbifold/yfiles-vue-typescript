@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>yFiles Vue App</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script type="text/yfiles-template">
+
+      <g id="NodeTemplate">
+        <defs>
+          <clipPath id="round-corner">
+            <rect x="0" y="0" width="{TemplateBinding width}" height="40" rx="6" ry="6"></rect>
+          </clipPath>
+        </defs>
+        <rect fill="#323232" rx="6" ry="6" width="{TemplateBinding width}" height="{TemplateBinding height}"></rect>
+        <rect clip-path="url(#round-corner)" fill="#6C3CA9" opacity="0.8" width="{TemplateBinding width}" height="20"></rect>
+        <text class="flow-node-title" x="7" y="13" data-content="{Binding name}"></text>
+      </g>
+    </script>
+  </body>
+</html>

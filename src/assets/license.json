@@ -1,0 +1,19 @@
+{
+  "company": "You",
+  "date": "12/12/2324",
+  "distribution": true,
+  "domains": [
+    "*"
+  ],
+  "fileSystemAllowed": true,
+  "licensefileversion": "1.1",
+  "localhost": true,
+  "oobAllowed": true,
+  "package": "complete",
+  "product": "yFiles for HTML",
+  "projectname": "My amazing stuff",
+  "subscription": "12/12/2324",
+  "type": "project",
+  "version": "2.3",
+  "key": "the-key"
+}

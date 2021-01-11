@@ -1,0 +1,43 @@
+{
+  "name": "yfiles-vue-typescript",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "3.6.5",
+    "vue": "2.6.12",
+    "vue-class-component": "7.2.5",
+    "vue-property-decorator": "9.0.0",
+    "vue-router": "3.4.3",
+    "vuex": "3.5.1",
+    "faker": "5.1.0",
+    "lodash": "4.17.20",
+    "vuetify": "^2.3.8",
+    "yfiles": "path to yfiles-*.tgz"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/jest": "^26.0.9",
+    "@types/lodash": "^4.14.159",
+    "@types/socket.io-client": "^1.4.33",
+    "@vue/cli-plugin-babel": "~4.4.6",
+    "@vue/cli-plugin-router": "~4.4.6",
+    "@vue/cli-plugin-typescript": "~4.4.6",
+    "@vue/cli-plugin-unit-jest": "~4.4.6",
+    "@vue/cli-plugin-vuex": "~4.4.6",
+    "@vue/cli-service": "~4.4.6",
+    "@vue/test-utils": "1.0.3",
+    "typescript": "~3.9.7",
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-template-compiler": "2.6.12",
+    "vuetify-loader": "^1.6.0",
+    "@yworks/optimizer": "^1.0.6"
+  },
+  "peerDependencies": {
+    "yfiles": "23.0.4"
+  }
+}
